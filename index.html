@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="tarjeta">
+            <h2>Contactenos</h2>
+    <form onsubmit="return enviar()" id="Formulario">
+        <label for="name">Nombre usuario </label>
+        <input class="inp1" id="nombre" type="text" name="Nombre" />
+        <p class="error" id="errorNombre"></p>
+
+        <label  for="email">Correo Email </label>
+        <input class="inp2"id="email" type="text" name="Email" />
+        <p class="error" id="errorEmail"></p>
+
+        <label  for="asunto">Asunto </label>
+        <input class="inp3" id="asunto" type="text" name="Asunto" />
+        <p class="error" id="errorAsunto"></p>
+
+        <label  for="descripcion">Mensaje </label>
+        <input class="inp4" id="descripcion" type="text" name="Mensaje" />
+        <p class="error" id="errorDescripcion"></p>
+        <div>
+        <input type="submit" value="Enviar" >
+        <input type="button" value="eliminar" onClick="Eliminar()"/>
+
+        </div>
+    </form>
+    <div id="error"></div>
+    </div>
+    </div>
+    <script src="./javaScript/formulario.js"></script>
+</body>
+
+</html>

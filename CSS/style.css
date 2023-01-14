@@ -1,0 +1,52 @@
+.contenedor {
+    width: auto;
+    height: auto;
+    padding:0px;
+    margin:0px;
+    margin-right: 0px;
+}
+
+.tarjeta {
+    width: 600px;
+    padding: 100px;
+    margin: 15%;
+    background-color: bisque;
+}
+
+.inp1 {
+    width: 100%;
+    padding: 11px 15px;
+    margin: 8px 0;
+    box-sizing: 1px;
+}
+
+.inp2 {
+    width: 100%;
+    padding: 11px 15px;
+    margin: 8px 0;
+    box-sizing: 1px;
+}
+
+.inp3 {
+    width: 100%;
+    padding: 11px 15px;
+    margin: 8px 0;
+    box-sizing: 1px;
+}
+
+.inp4 {
+    width: 100%;
+    padding: 11px 15px;
+    margin: 8px 0;
+    box-sizing: 1px;
+    height: 100px;
+}
+.h1{
+    justify-content: center;
+    text-align: center;
+}
+.error{
+    background: red;
+    color: white;
+    padding-left: 10px;
+}
